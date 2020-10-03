@@ -91,14 +91,14 @@ nav ul li:last-child {
 
 h1 {
     color: #4b5c66;
-    font-size: 24px;
+    font-size: 1.5em;
     font-weight: normal;
     margin: 0 0 8px 0;
 }
 
 .name p { 
     color: #a0aab1;
-    font-size: 12px;
+    font-size: 0.75em;
 }
 
 .name p img { 
@@ -112,14 +112,14 @@ h1 {
 
 .stats-links {
     color: #4b5c66;
-    font-size: 12px;
+    font-size: 0.75em;
     padding: 15px 0px 10px 0px;
     border-bottom: 1px solid #e1e6e9;
     margin-bottom: 20px;
 }
 
 .stats-links span, .stats-links a {
-    margin-right: 20px;
+    margin-right: 18px;
 }
 
 .stats-links a:last-child {
@@ -127,13 +127,13 @@ h1 {
 }
 
 .stats-links a {
-    font-size: 12px;
+    font-size: 1em;
     font-weight: normal;
     color: #4b5c66;
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 1.25em;
     font-weight: normal;
     color: #4b5c66;
 }
@@ -147,7 +147,7 @@ input.search {
     box-shadow: none;
     height: 28px;
     width: 100%;
-    font-size: 13px;
+    font-size: 0.8em;
     padding: 3px 6px 3px 25px;
     border: 1px solid #d0dde9;
     margin: 0;
@@ -231,5 +231,15 @@ nav a.collection { background: url("../img/icon/collection.png") no-repeat 0px; 
 nav a.history { background: url("../img/icon/history.png") no-repeat 0px; }
 
 
+@media only screen and (max-device-width:575px){
+    .share {
+        display: none;
+    }
+}
 
+@media only screen and (max-device-width:375px){
+    .wrapper form{
+        display: none;
+    }
+}
 
